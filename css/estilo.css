@@ -13,15 +13,36 @@ body {
     margin: 5px;
 }
 
+.rodape {
+    height: 10vh;
+    width: 100%;
+    margin: 5px 0 0;
+}
+
+.btn {
+    width: 80%;
+    height: auto;
+    margin: 3px;
+    background: black;
+    border: 2px solid whitesmoke;
+    border-radius: 5px;
+    padding: 5px 2px;
+    text-align: center;
+    color: whitesmoke;
+    align-items: center;
+}
+
 .topo {
-    width: 90h;
+    width: 90vw;
     margin: 10px;
 }
 
 .meio {
     display: flex;
     align-items: flex-start;
+    gap: 10px;
 }
+
 
 .centro {
     display: flex;
@@ -35,6 +56,7 @@ body {
     width: 17%;
     padding: 10px;
     background: red;
+    flex-direction: column;
 }
 
 .container {
@@ -113,8 +135,3 @@ h1 span {
 .mani { bottom: 89px; left: 24px; background: cyan; }
 .emis { top: 88px; left: 25px; background: orange; }
 
-.rodape {
-    height: 10vh;
-    width: 100%;
-    margin: 5px 0 0;
-}
